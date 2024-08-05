@@ -1,0 +1,21 @@
+.manage-books {
+    padding: 20px;
+}
+
+.manage-books h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.manage-books ul {
+    list-style: none;
+    padding: 0;
+}
+
+.manage-books li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

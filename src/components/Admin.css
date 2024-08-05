@@ -1,0 +1,104 @@
+/* login.css */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 50px;
+    background-color: #f4f4f4;
+}
+
+.welcome-section {
+    flex: 1;
+    text-align: center;
+}
+
+.welcome-section img {
+    width: 300px;
+    height: auto;
+}
+
+.welcome-section h2 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #333;
+}
+
+.welcome-section h5 {
+    font-size: 1.2rem;
+    color: #777;
+    margin-top: 10px;
+}
+
+.login-section {
+    flex: 1;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.login-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login-section button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-section button:hover {
+    background-color: #555;
+}
+
+.register {
+    margin-top: 20px;
+}
+
+.register h4 {
+    font-size: 1rem;
+    color: #555;
+}
+
+.register a {
+    font-size: 1rem;
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.register a:hover {
+    color: #004499;
+}
